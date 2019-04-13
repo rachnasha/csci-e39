@@ -52,7 +52,10 @@ class Chat extends React.Component {
 		const {currentText} = this.state
 
 		return <div>
+
+			<header className='header'>
 			<h1>Chatroom</h1>
+			</header>
 
 			<h2>Members</h2>
 			<ul>
@@ -74,7 +77,12 @@ class Chat extends React.Component {
 			<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
 			<button disabled={currentText === ``} onClick={this.onSend}>Send</button>
 			<p>{this.getTypingMessage()}</p>
+			
+			<footer className='footer'>
+			<p>Chatroom</p>
+		</footer>
 		</div>
+		
 	}
 
 }

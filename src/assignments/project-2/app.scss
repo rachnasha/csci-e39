@@ -2,4 +2,23 @@ $background-color: #8addea;
 $primary-gray: #edf1f2;
 $white: #fcfcfc;
 
+html {
+	font-size: 16px;
+}
 
+body {
+	border: 0;
+	margin: 0;
+}
+
+.header {
+	background-color: $background-color;
+	color: $primary-gray;
+	text-align: center;
+}
+
+.footer {
+	background-color: $background-color;
+	color: $primary-gray;
+	text-align: center;
+}
