@@ -13,21 +13,35 @@ html {
 body {
 	border: 0;
 	margin: 0;
+	background-color: $background-color;
 }
 
-.header {
-	background-color: $background-color;
-	color: $primary-gray;
+header {
+	background-color: $white;
+	color: $background-color;
 	text-align: center;
 	padding: 1rem;
 	border-bottom: 0.3rem solid $primary-gray;
 
 }
 
-.footer {
-	background-color: $background-color;
-	color: $primary-gray;
+footer {
+	background-color: $white;
+	color: $background-color;
 	text-align: center;
 	padding: 1rem;
 	border-top: 0.3rem solid $primary-gray;
+}
+
+button {
+	background-color: $white;
+	border: 0.3rem outset $primary-gray;
+	border-radius: 25px;
+	color: $background-color;
+	font-weight: 900;
+}
+
+input {
+	border: 0.3rem inset $primary-gray;
+	border-radius: 25px;
 }
